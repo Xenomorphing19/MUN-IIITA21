@@ -1,0 +1,11 @@
+.button{
+    margin-bottom: 2rem ;
+}
+
+.cen{
+    justify-items: center;
+}
+
+#about, #client, #work, #registration{
+    justify-items: center;
+}
