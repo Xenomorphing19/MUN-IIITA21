@@ -100,6 +100,7 @@ a {
   min-height: 160px;
   color: white;
   text-align: center;
+  margin: 70px auto 30px;
 }
 
 .tm-double-border-1,
@@ -150,11 +151,10 @@ a {
 }
 
 .tm-sidebar-sticky {
-  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .tm-section-wrap {
@@ -167,6 +167,9 @@ a {
   color: white;
 }
 
+.tm-main-nav {
+  margin-bottom: 160px;
+}
 
 .tm-white-rect {
   display: block;
@@ -211,7 +214,7 @@ a {
 }
 
 .tm-social-links {
-  /* margin-bottom: 27px; */
+  margin-bottom: 27px;
 }
 
 .tm-social-link {
@@ -587,6 +590,8 @@ figure.effect-hover:hover p {
   }
 
   .tm-brand-box {
+    margin-top: 30px;
+    margin-bottom: 30px;
     max-width: 200px;
     min-height: 100px;
   }
