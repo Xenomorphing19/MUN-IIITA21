@@ -9,3 +9,7 @@
 #about, #client, #work, #registration{
     justify-items: center;
 }
+
+.footer{
+    margin-bottom: 2rem;
+}
