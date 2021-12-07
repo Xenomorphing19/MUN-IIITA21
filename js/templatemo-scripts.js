@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function () {
   // Single Page Nav for highlighting nav items
   $("#tmMainNav").singlePageNav();
 
@@ -66,12 +66,12 @@ $(document).ready(function() {
     gallery: { enabled: true }
   });
 
-  $(".navbar-toggler").on("click", function(e) {
+  $(".navbar-toggler").on("click", function (e) {
     $(".tm-sidebar").toggleClass("show");
     e.stopPropagation();
   });
 
-  $("html").click(function(e) {
+  $("html").click(function (e) {
     var sidebar = document.getElementById("tmSidebar");
 
     if (!sidebar.contains(e.target)) {
@@ -79,7 +79,13 @@ $(document).ready(function() {
     }
   });
 
-  $("#tmMainNav .nav-link").click(function(e) {
+  $("#tmMainNav .nav-link").click(function (e) {
     $(".tm-sidebar").removeClass("show");
+  });
+});
+const faqs = document.querySelectorAll(".faq");
+faqs.forEach((faq) => {
+  faq.addEventListener("click", () => {
+    faq.classList.toggle("active");
   });
 });
