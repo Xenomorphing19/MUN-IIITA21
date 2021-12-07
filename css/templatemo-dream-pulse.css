@@ -5,6 +5,9 @@
 
 
 
+
+
+
 /*
 
 DREAM PULSE
@@ -65,7 +68,7 @@ a {
 }
 
 .tm-section-title {
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 
 .parallax-window {
@@ -396,7 +399,7 @@ a {
 /*---------------*/
 
 figure.effect-hover {
-  background: #069;
+  background: #523E41;
 }
 
 figure.effect-hover img {
