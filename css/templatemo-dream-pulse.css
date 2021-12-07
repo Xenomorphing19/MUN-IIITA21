@@ -1,10 +1,3 @@
-
-
-
-
-
-
-
 /*
 
 DREAM PULSE
@@ -14,12 +7,19 @@ https://templatemo.com/tm-536-dream-pulse
 */
 
 body {
+  background: url('../img/iiita.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  /* background-image: url("img/iiita.jpg");  */
+  /* background-repeat: no-repeat;  */
+  /* background-attachment: fixed; */
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 400;
   overflow-x: hidden;
   color: #707172;
-  background-color: #666;
 }
 
 p {
