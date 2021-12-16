@@ -89,3 +89,11 @@ faqs.forEach((faq) => {
     faq.classList.toggle("active");
   });
 });
+const sponsors = document.querySelectorAll(".sponsors");
+
+sponsors.forEach((sponsor) => {
+  sponsor.addEventListener("click", () => {
+    sponsor.classList.toggle("active");
+    document.querySelectorAll("#dots").style.visibility="hidden";
+  });
+});
