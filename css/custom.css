@@ -111,6 +111,13 @@ img{
     width: 12rem;
     opacity: 0.8;
 }
+
+.opac{
+    opacity:0.8;
+    font-size: smaller;
+    padding-left: 3rem;
+}
+
 @keyframes fade {
     from {
         opacity: 0;
