@@ -97,6 +97,20 @@ svg {
     color: aliceblue;
 }
 
+img{
+    border-radius : 10px;
+}
+
+.sponsor-home{
+    padding-top: 1rem;
+}
+
+.image{
+    border-radius: 5%;
+    height: 4.5rem;
+    width: 12rem;
+    opacity: 0.8;
+}
 @keyframes fade {
     from {
         opacity: 0;
