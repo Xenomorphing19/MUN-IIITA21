@@ -119,8 +119,8 @@ img{
 }
 
 .main-sponsor{
-    height:500;
-    width:400;
+    height:10rem;
+    width:20rem;
 }
 @keyframes fade {
     from {
