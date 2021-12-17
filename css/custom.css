@@ -107,7 +107,7 @@ img{
 
 .image{
     border-radius: 5%;
-    height: 4.5rem;
+    height: 6rem;
     width: 12rem;
     opacity: 0.8;
 }
@@ -118,6 +118,10 @@ img{
     padding-left: 3rem;
 }
 
+.main-sponsor{
+    height:500;
+    width:400;
+}
 @keyframes fade {
     from {
         opacity: 0;
