@@ -57,6 +57,39 @@
     transform: rotate(180deg);
 }
 
+.sponsors{
+    max-width: 700px;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    cursor: pointer;
+}
+
+.sponsor-des {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration:underline gray;
+}
+.sponsor-des-more {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.4s ease;
+}
+
+.sponsors.active .sponsor-des-more{
+    justify-content: center;
+    max-height: fit-content;
+    animation: fade 1.4s ease-in-out;
+}
+
+.sponsors.active .sponsor-des{
+    text-decoration: none;
+}
+
+.sponsors.active .dots{
+    visibility: hidden;
+}
+
 svg {
     transition: tranform 0.5s ease-in;
 }
@@ -65,6 +98,31 @@ svg {
     color: aliceblue;
 }
 
+img{
+    border-radius : 10px;
+}
+
+.sponsor-home{
+    padding-top: 1rem;
+}
+
+.image{
+    border-radius: 5%;
+    height: 6rem;
+    width: 12rem;
+    opacity: 0.8;
+}
+
+.opac{
+    opacity:0.8;
+    font-size: smaller;
+    padding-left: 3rem;
+}
+
+.main-sponsor{
+    height:10rem;
+    width:20rem;
+}
 @keyframes fade {
     from {
         opacity: 0;
