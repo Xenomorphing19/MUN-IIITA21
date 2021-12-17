@@ -105,17 +105,17 @@ img{
     padding-top: 1rem;
 }
 
-.image{
-    border-radius: 5%;
-    height: 4.5rem;
-    width: 12rem;
+.main-sponsor{
+    border-radius: 2%;
+    height: 9rem;
+    width: 21rem;
     opacity: 0.8;
 }
 
 .opac{
     opacity:0.8;
-    font-size: smaller;
-    padding-left: 3rem;
+    font-size:medium;
+    padding-left: 4rem;
 }
 
 @keyframes fade {
