@@ -66,9 +66,9 @@
 
 .sponsor-des {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    text-decoration: underline;
+    text-decoration:underline gray;
 }
 .sponsor-des-more {
     max-height: 0;
@@ -77,8 +77,9 @@
 }
 
 .sponsors.active .sponsor-des-more{
-    max-height: 300px;
-    animation: fade 1s ease-in-out;
+    justify-content: center;
+    max-height: fit-content;
+    animation: fade 1.4s ease-in-out;
 }
 
 .sponsors.active .sponsor-des{
