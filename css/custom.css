@@ -121,7 +121,7 @@ img{
 
 .main-sponsor{
     height:10rem;
-    width:20rem;
+    width:fit-content;
 }
 
 .media-partner{
