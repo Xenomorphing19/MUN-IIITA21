@@ -123,6 +123,11 @@ img{
     height:10rem;
     width:20rem;
 }
+
+.media-partner{
+    height: 6rem;
+    width: 12rem;
+}
 @keyframes fade {
     from {
         opacity: 0;
