@@ -108,7 +108,7 @@ img{
 
 .image{
     border-radius: 2%;
-    height: fit-content;
+    height: 5rem;
     width: fit-content;
     opacity: 0.8;
 }
