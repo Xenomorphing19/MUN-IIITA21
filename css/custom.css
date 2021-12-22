@@ -122,11 +122,22 @@ img{
 .main-sponsor{
     height: 10rem;
     width:fit-content;
+    opacity: 0.8;
 }
 
 .media-partner{
     height: 6rem;
     width: 12rem;
+    opacity: 0.8;
+}
+
+.register{
+    height: 3.3rem;
+    width: 10rem;
+}
+
+.register-text{
+    font-size: large;
 }
 @keyframes fade {
     from {
